@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4716368222335422256}
   - component: {fileID: 602767905212837375}
   - component: {fileID: 478874382131451293}
+  - component: {fileID: 4566424939308700946}
   m_Layer: 0
   m_Name: DropBall
   m_TagString: DropBall
@@ -157,3 +158,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4566424939308700946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7683290825196029616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d4102f17185b5246a92988e5fded5c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Bounce
+  bounciness: 0.8

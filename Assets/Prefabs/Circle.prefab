@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4663824074831127730}
   - component: {fileID: 6157942406992146070}
   - component: {fileID: 4431181594536073159}
+  - component: {fileID: -6654642154532122128}
   m_Layer: 0
   m_Name: Circle
   m_TagString: BouncyBall
@@ -129,3 +130,15 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &-6654642154532122128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8958308429325724421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b6611de7ab581444ad0fe54826e30f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestroyBall

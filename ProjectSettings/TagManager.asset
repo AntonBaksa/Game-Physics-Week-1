@@ -5,7 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - DropBall
-  - BouncyBall
+  - PurpleBall
   layers:
   - Default
   - TransparentFX
