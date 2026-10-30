@@ -1,6 +1,4 @@
-using UnityEditor.ShaderGraph;
 using UnityEngine;
-using static Unity.U2D.Physics.PhysicsShape;
 
 public class Bounce : MonoBehaviour
 {
